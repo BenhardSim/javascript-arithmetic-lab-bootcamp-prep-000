@@ -20,7 +20,7 @@ function dec(a){
 }
 //var n = '2.222'
 function makeInt(n){
-  parseInt(n);
+  parseInt(n,10);
   return n;
 }
 function preserveDecimal(n){
